@@ -10,7 +10,12 @@ class Building
   end
 
   def average_rent
+    
     ((1200.to_f + 999.to_f) / 2).to_f
+  end
+
+  def renter_with_highest_rent
+
   end
 
 
