@@ -7,13 +7,12 @@ class Apartment
     @bathrooms = apartment_info[:bathrooms]
     @bedrooms = apartment_info[:bedrooms]
     @renter = []
+    # require "pry"; binding.pry
   end
 
   def add_renter(renter)
     # apartment_info[:renter] = renter
     @renter << renter
   end
-
-
 
 end
